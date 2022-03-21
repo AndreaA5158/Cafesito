@@ -1,0 +1,172 @@
+
+ * { /* Define el margen que va a tener la pagina web */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { /* se creo para darle estilo al encabezado en la etiqueta header */
+  width: 100%; /* define el tamaño o margen que va a tener dentro de la pagina web */
+  height: 570px; /* define la altura del elemento*/
+  background: #693414;/* Se define un color para el fondo */
+
+  /* Crear un degradado con transparencia*/
+  background: -webkit-linear-gradient(to right, hsla(37, 15%, 41%, 0.5), hsla(38, 14%, 44%, 0.5)), url(Imagenes/inicio.png);  
+  background: linear-gradient(to right, hsla(37, 15%, 41%, 0.5), hsla(38, 14%, 44%, 0.5)), url(Imagenes/inicio.png); 
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+header .textos-header{
+  display: flex; /* define la visualizacion de un elemento*/
+  height: 430px; /* define la altura del area de contenido de un elemento */
+  width: 100%; /* define el ancho del elemento */
+  align-items: center; /* para poder centrar los elementos*/
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;/*Para centrar texto */
+}
+  
+.wave{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Para dar estilo a las etiquetas h1,h2,h3,h4, todos las etiquetas de este tipo que se utilicen en el html tendran este estilo */
+  h1 { 
+    font-family: 'Dancing Script', cursive;
+    color: #f8c581;
+    font-size: 90px;
+    text-align: center; }
+  
+  h2 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(112, 78, 55);
+    font-size: 40px;
+    text-align: center; }
+
+  h3 {
+    font-family: 'Cinzel', serif;
+    color: rgb(224, 101, 70);
+    font-size: 20px;
+    text-align: center; }
+
+  h4 {
+    font-family: 'Dancing Script', cursive;
+    color: rgb(211, 115, 115);
+    font-size: 35px;
+    text-align: center; }
+
+  /*Darle formato a la etiqueta img*/
+  img{
+    display:block;
+    margin:auto;
+    }
+  
+  .fondo {
+    background-color:#f7d9a7; /*Asignar un color para el fondo */
+  }
+
+  /* Dar estilo a los botones, se define el ancho, alto, color, radio del borde, margenes, alineacion, etc. */
+  .button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #463521;
+  background-color: #c79a60;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #815a24;
+  display:block;
+  margin:auto;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #2e644f;
+  background-color: #7cdab2;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #348070;
+  display:block;
+  margin:auto;
+}
+ 
+/* Para dar estilo a las tablas, se define el borde, color, radio del borde, etc.*/
+  .tabla {
+    background: #c7d0b9; 
+    overflow: hidden; 
+    border: 5px solid #c7d0b9; 
+    border-radius: 10px; 
+    margin: 50; }  
+  
+
+  .estilotabla {
+    background: #eec4b5;
+    border-radius: 15px;
+    margin: 70;
+    padding: 0;
+    
+    }
+
+  .estilotabla1 {
+    background: #dbb693;
+    border-radius: 15px;
+    margin: 70;
+    padding: 0;
+      
+      }
+
+  .estilotabla2 {
+    background: #a5c5bb;
+    border-radius: 15px;
+    margin: 70;
+    padding: 0;
+        
+        } 
+
+  .tablacontacto {
+    background: #e2b1b1;
+    border-radius: 10px;
+    margin: 70;
+    padding: 30;
+              
+              } 
+
+    
+ .margen {
+  margin: 40;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.form {
+  width: 100%;
+  background: #b98961;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #be7959;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgb(245, 215, 196);
+}
+
+.radio {
+  border: 2px solid #ce9b83;
+  border-radius: 7px;
+  font-family: 'Cinzel', serif;
+}

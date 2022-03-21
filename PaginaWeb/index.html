@@ -1,0 +1,126 @@
+<html>
+<head>
+<title> Inicio - Cafesito </title> <!-- Titulo que se le asignara a nuestra ventana-->
+<link href="estilo.css" rel="stylesheet" type="text/css"> <!-- Importar o mandar llamar al estilo css
+que se creara para dar estilo a la pagina-->
+
+<!--Permite utilizar las fuentes que se utilizaran para los textos-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel&family=Dancing+Script&family=Inspiration&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body class="fondo"> <!-- cuerpo de el html, donde se declara todo el contenido que se añadira a la pagina web-->
+<header><!--Para poder dar estructura al encabezado-->
+  <section class="textos-header">
+<H1> CAFESITO </H1> </section> <!-- seccion, para poder dar estructura a la seccion, en este caso el titulo, el hq sirve para poner un texto-->
+
+<div style="height: 150px; overflow: hidden;" > <!-- el div sirve para crear o dividir secciones-->
+  <!--svg sirve para crear una imagen vectorial, se utilizo como parte del encabezado en la pagina-->
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+    <path d="M-16.08,17.28 C150.96,265.97 343.40,-118.89 499.72,107.08 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #f7d9a7;">
+    </path>
+  </svg>
+</div>
+</header>
+
+<!--img sirve para poder agregar una imagen, width determina el tamaño que se le quiera asignar a la imagen-->
+<!-- align sirve para poder centrar elementos, en este caso la imagen que agregamos-->
+<div align="center"><IMG SRC="Imagenes/logo.png" width="30%"></div>
+
+  <div class="tabla"> <!-- con class tabla mandamos llamar el esilo tabla que se creo dentro del archivo css-->
+<table> <!-- se crea una tabla en la que se podran añadir filas y columnas con tr y td-->
+ <tr> 
+<td> 
+ <img src="Imagenes/arandano.png" width="50%"><!-- se agrega una imagen, se ingresa la ruta 
+donde se encuentra guardada la imagen y se selecciona un tamaño con width-->
+  <H2> PASTELILLOS </H2>
+  
+  <PRE> 
+    <h3> <!-- ingresar texto-->
+  Chocolate $20
+  Vainilla $15
+  Red Velvet $25
+  Cafe Moka $25
+    </h3>
+  </PRE>
+  <!-- Se crea un boton, se hace uso de form el cual realizara la accion de poder acceder a otro html, es decir, al hacer
+  clic en el boton nos redirigira a otro html, ese html sera el que se le halla asignado, se debe agregar la ruta del html al que se desea ingresar-->
+ <form action="pastelillo.html"> 
+  <BUTTON class = "button1"> VER MAS... </BUTTON></form>
+</td>
+
+
+<td>
+	<img src="Imagenes/cafe.png" width="40%">
+  <pre>
+	<H2> CAFE </H2> </pre>
+  
+  <PRE> 
+    <h3>
+      Espresso - $41
+      Cortado - $45
+      Americano - $49
+      Cappuccino - $52
+    </h3>
+  </PRE> 
+
+  <pre>
+<form action="cafe.html">
+  <BUTTON  class = "button1"> VER MAS... </BUTTON> </form> </pre>
+</td>
+
+<td>
+<img src="Imagenes/pastel.png" width="50%">
+
+<H2> PASTELES </H2>
+  
+  <PRE> 
+    <h3>
+  
+  Chocolate $30
+  Zanahoria $38
+  Frutas $32    
+  Pay de moras $35
+    </h3>
+  </PRE> 
+  <form action="pastel.html">
+  <BUTTON  class = "button1"> VER MAS... </BUTTON> </form>
+</td>
+
+</tr>
+</table>
+</div>
+<!-- se crea una tabla para realizar un formulario-->
+<table class="tablacontacto">
+  <tr>
+  <td>
+    <h2>BUZON - CAFESITO</h2></td>
+  </tr>
+  <TR> 
+    <TD> <h4>Nombre: </h4> </TD> 
+    <TD> <input class="form" type = "TEXT" cols = "15" name = "Nombre" value = "Ingresar Nombre..."> </TD>
+    <!-- se crea una entrada de datos, input de tipo texto, sirve para poder escribir texto-->
+  </TR>
+  
+  <TR> 
+    <TD> <h4>Apellido: </h4></TD>
+    <TD> <input class="form" type = "TEXT" cols = "20" name = "Apellidos" value = "Ingresar Apellidos..."> </TD>
+  </TR>
+
+  <TR> 
+    <TD> <h4>Sugerencias: </h4></TD>
+    <TD>  <textarea class = "radio" style="color:rgb(71, 43, 32)"  name="Sugerencia" id="" cols="30" rows="5"></textarea></TD>
+    <!-- se crea una entrada de datos, textarea, sirve para poder escribir texto, a diferencia de input text, este es un espacio mas grande
+    donde se puede escribir mayor cantidad de texto, sirve para dejar algun comentario o sugerencia-->
+  </TR>
+ 
+
+  <td><img src="Imagenes/cafesito.webp" width="50%" ></td>
+<tr>
+    <td> <BUTTON  class = "button2"> ENVIAR </BUTTON> </td>
+</tr>
+</table>
+
+</body>
+</html> 
